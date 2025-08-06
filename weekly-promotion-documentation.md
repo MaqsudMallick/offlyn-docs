@@ -1,6 +1,4 @@
-Got it! Here's a simplified, user-friendly documentation tailored specifically for your **Trigger.dev user flow** — no internal logic, just steps to run the script correctly.
 
----
 
 # ✉️ Send Weekly Reminder Emails via Trigger.dev
 
@@ -86,4 +84,5 @@ Paste a JSON payload like this into the **Test Payload** field:
 ---
 
 If you run into any issues, reach out to the me. I'm happy to help!
+
 
