@@ -119,7 +119,7 @@ Completion rate: 45%
 |-----|-----------------|-------------------|-----------------|----------|-----------------|
 | **Swiggy** | 1-2 steps | 15-30 seconds | Optional (default avatar) | Auto-detect | ~90% |
 | **Zomato** | 1 step | 15-30 seconds | Optional (default avatar) | Auto-detect | ~90% |
-| **Uber** | 1-2 steps | 20-40 seconds | Optional (default avatar) | Auto-detect | ~85%+ |
+| **Uber** | 2 steps | 20-40 seconds | Optional (default avatar) | Auto-detect | ~85%+ |
 | **BookMyShow** | 1 step | 20-30 seconds | Optional (default avatar) | City selector | ~85%+ |
 | **Offlyn (Current)** | **8 steps** | **3-5 minutes** | **MANDATORY** | **Manual entry** | **45%** |
 | **Offlyn (Recommended)** | **1-2 steps** | **15-30 seconds** | **Optional (initials)** | **Auto-detect** | **90%+** |
