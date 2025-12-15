@@ -1,5 +1,6 @@
 ## GetX as a State Management Solution in Flutter Applications
 
+
 ### Implicit Behavior Creates Debugging Challenges
 
 GetX employs implicit dependency injection and automatic reactivity that can obscure application flow. While variables automatically react to changes and dependencies resolve without explicit initialization, this abstraction layer introduces significant debugging complexity. When issues arise—screens failing to update, state changes not propagating, or dependency resolution conflicts—the underlying mechanisms become difficult to trace and diagnose.
@@ -19,6 +20,24 @@ Despite the framework's longevity, documentation remains relatively superficial.
 ### Industry Perception
 
 GetX continues to face skepticism within the Flutter development community. Its presence in production codebases is often interpreted as an indicator of time-constrained development or technical debt. This perception stems from observed patterns where GetX-based projects experience maintainability challenges as they mature.
+
+### GetX replaces Flutter Classes
+
+These classes are replaced in such a way that these core classes are completely rewritten. This causes the problem that if flutter team chooses to make any changes to these core classes it will take a long time for getX itself to reflect those changes or maybe never
+reflect at all if getX maintainers are no longer available since it is open source.
+
+### GetX promotes anti patterns
+
+For example GetX snackbar doesn't follow either material design or cupertino design. It also promotes developers in violation of uni directional data flow principle as seen in multiple instances of our app.
+
+### GetX tries to do everything
+
+It isn't just a state management tool. It is theming, validation, api calls, storage, validation, snackbar, routing, dependency injection etc. Put too many eggs in one basket and it would lead to your app being completely dependent on getx. If getx goes down your app
+does too. GetX is open source, which means its healthy continuation is questionable.
+
+### Unfriendly testing
+
+In future if you plan to automate testing it would be exponentially difficult with getX
 
 ## Assessment
 
